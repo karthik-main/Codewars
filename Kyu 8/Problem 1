@@ -1,0 +1,5 @@
+Alireza and Ali have a 3×3 table and playing on that. They have 4 tables (2×2) A,B,C and D in this table.
+At beginning all of 9 numbers in 3×3 table is zero.
+Alireza in each move choose a 2×2 table from A, B, C and D and increase all of 4 numbers in that by one.
+He asks Ali, how much he increase table A, B, C and D. (if he cheats you should return [-1])
+Your task is to help Ali.
