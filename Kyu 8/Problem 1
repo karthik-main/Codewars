@@ -1,5 +1,22 @@
-Alireza and Ali have a 3×3 table and playing on that. They have 4 tables (2×2) A,B,C and D in this table.
-At beginning all of 9 numbers in 3×3 table is zero.
-Alireza in each move choose a 2×2 table from A, B, C and D and increase all of 4 numbers in that by one.
-He asks Ali, how much he increase table A, B, C and D. (if he cheats you should return [-1])
-Your task is to help Ali.
+/*
+In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+
+Examples
+makeNegative(1);    // return -1
+makeNegative(-5);   // return -5
+makeNegative(0);    // return 0
+makeNegative(0.12); // return -0.12
+
+Notes
+The number can be negative already, in which case no change is required.
+Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense. */
+
+
+// ------- Solution ---------
+function makeNegative(num) {
+  if (num > 0)          // if number is less than 0 then it multiplies it with -1
+    return num * -1
+  else                  // If number is 0 or more than 0 then it return the number as it is
+    return num
+
+}
