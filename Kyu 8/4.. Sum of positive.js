@@ -7,6 +7,6 @@ _____________________________
 --------- SOLUTION ----------
 
 const positiveSum = arr => {
-  return arr.filter(ele => ele > 0)
-         .reduce((acc,c) => acc + c, 0)
+  return arr.filter(ele => ele > 0)   	// filters out negative numbers
+         .reduce((acc,c) => acc + c, 0)	// sum of new filtered array
 }
